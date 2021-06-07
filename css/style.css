@@ -1,0 +1,196 @@
+/* body  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* navabr */
+.nav-item:hover {
+  border-bottom: #fff 3px solid;
+  font-size: 24px;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #444 3px solid;
+  opacity: 0.9;
+}
+
+.navbar-toggler {
+  color: #fff;
+}
+
+/* links */
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.site-link:hover {
+  border-bottom: #007bff 3px solid;
+  font-size: 18px;
+  color: #fff;
+}
+
+.navbar-brand {
+  width: 10%;
+  min-height: 10px;
+}
+
+.navbar li {
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #fff;
+  font-size: 21px;
+}
+
+/* showcase */
+/* #showcase-section {
+    background: url(../img/showcase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 700px;
+  }
+  
+  .dark-overlay {
+    position: absolute;
+    min-height: 700px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .showcase-inner {
+    padding-top: 300px;
+    z-index: 0.9;
+  } */
+
+/* hero section */
+#hero-section {
+  background: url(../img/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+}
+
+.hero-overlay {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75vh;
+  background: rgba(117, 84, 84, 0.5);
+}
+
+.rowh {
+  height: 75vh;
+}
+
+.showcase-inner {
+  padding-top: 100px;
+}
+
+#found-items {
+  padding-top: 140px;
+}
+
+#showcase-section .row-h1 {
+  height: 500px;
+}
+
+/* home info */
+#home-info {
+  background: url("../img/lamp1.jpg");
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+#home-info .dark-overlay {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 250px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.inner-content {
+  color: #fff;
+  font-size: 30px !important;
+}
+/* contact section */
+
+#contact-info .fas {
+  color: #fff;
+  background: #007bff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* forgot password */
+#forgot-password .fa-ca {
+  border: 10px #007bff solid;
+  color: #007bff;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+/* footer */
+#main-footer .footer-brand .brand {
+  width: 50%;
+  height: 50%;
+}
+
+#main-footer {
+  background: url("../img/lamp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  /* height: 60vh; */
+}
+
+/* .overlay-footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 60vh;
+} */
+/* about us */
+
+/* found form */
+#found-form {
+  padding-top: 150px;
+}
+
+/* mobile veiw */
+
+@media screen and (max-width: 768px) {
+  #main-footer {
+    text-align: center;
+    padding-top: 15px;
+  }
+  #main-footer .rowhh {
+    border-bottom: 2px #444 solid;
+  }
+  #found-items {
+    margin-top: -50px;
+  }
+}

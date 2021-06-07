@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lost It? | Find It</title>
+</head>
+<body>
+    <!-- navbar section -->
+   <nav class="navbar navbar-expand-sm  navbar-dark bg-primary  fixed-top ">
+    <div class="container-fluid">
+            <a href="index.html" class="navbar-brand "> 
+                <img src="img/logo2.png" class="img-fluid" alt="">
+            </a>      
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item pr-3">
+                    <a href="index.html " class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item pr-3">
+                    <a href="about.html" class="nav-link ">About</a>
+                </li>
+                <li class="nav-item pr-3">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item pr-3">
+                    <a href="lost.html" class="nav-link">Found Items</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item pr-3 ">
+                    <a href="login.html" class="nav-link">Login</a>
+                </li>
+                <li class="nav-item pr-3 ">
+                    <a href="registeration.html" class="nav-link">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+   </nav>
+
+   <!-- hero section -->
+   <section id="hero-section">
+       <div class="hero-overlay">
+           <div class="container">
+               <div class="d-flex flex-column align-items-center justify-content-center  text-white rowh">
+                   <div>
+                       <h1 class="display-4">LOST IT? FIND IT HERE</h1>
+                   </div>
+                   <div>
+                       <h3>
+                           Use less time and find your lost items here
+                       </h3>
+                   </div>
+                   <div>
+                       <a href="lost.html" class="btn btn-outline-light btn-lg mt-3">Found Items</a>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <!-- showcase section -->
+   <section id="showcase-section" class="mb-4">
+       <div class="overlay">
+           <div class="showcase-inner container">
+               <h2 class="display-5 text-center">Worry no more cause ETF is here to help you find your lost items.</h2>
+               <div class="row pt-4">
+                   <div class="col-md-5 align-items-center">
+                       <p class="lead">ETF helps you store your missing/lost items and also has a unique way in which it helps individauls in identifying his/her lost items that has been found and kept in store for identification and collection.</p>
+                       <a href="login.html" class="btn btn-outline-primary btn-lg">Found a lost item</a>
+                   </div>
+                   <div class="col-md-7">
+                       <img src="/img/showcase.jpg" class="img-fluid rounded-circle" alt="">
+                   </div>
+               </div>
+           </div>
+       </div>
+    </section>
+    
+
+
+   <!-- home info -->
+   <section id="home-info" class="p-5 mb-5">
+    <div class="dark-overlay">
+        <div class="container inner-content text-center pt-5">
+            <h1>Lost It?</h1>
+            <p class="lead">Check our Store for the recent found items and try to identify your missing item </p>
+            <a href="items.html" class="btn btn-outline-light btn-lg">Found Items</a>
+        </div>
+    </div>
+   </section>
+
+
+   <!-- section found items -->
+   <section id="latest-updates py-5 mb-5">
+       <div class="container-fluid">
+           <div class="row mb-3">
+               <div class="col text-center">
+                   <h2 class="display-4">Lastest Updates</h2>
+               </div>
+           </div>
+           <div class="row mx-2">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                            <img src="/img/card2.jpg" class="img-fluid" alt="">
+                    </div>
+                     <div class="card-footer">
+                         <span class="d-flex justify-content-between">
+                             <div>
+                                 Name: Nkengla Muluh
+                                 <br>
+                                 Category: National identity
+                             </div>
+                             <div>
+                                 <button class="btn btn-primary" data-toggle="modal" data-target="#myItem" >View Item</button>
+                             </div>
+                         </span>
+                     </div>
+                 </div>
+            </div>
+            <div class="col-md-4">
+                   <div class="card">
+                       <div class="card-body">
+                           <img src="/img/card1.jpg" class="img-fluid" alt="">
+                       </div>
+                        <div class="card-footer">
+                            <span class="d-flex justify-content-between">
+                                <div>
+                                    Name: Martin Karl
+                                    <br>
+                                    Category: Drivers license
+                                </div>
+                                <div>
+                                    <button class="btn btn-primary" data-toggle="modal" data-target="#myItem" >View Item</button>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+               </div>
+               <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="/img/card3.jpg" class="img-fluid" alt="">
+                    </div>
+                     <div class="card-footer">
+                        <span class="d-flex justify-content-between">
+                            <div>
+                                Name: Samsung S5
+                                <br>
+                                Category: Electronic
+                            </div>
+                            <div>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#myItem" >View Item</button>
+                            </div>
+                        </span>
+                     </div>
+                 </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="/img/card3.jpg" class="img-fluid" alt="">
+                        </div>
+                         <div class="card-footer">
+                            <span class="d-flex justify-content-between">
+                                <div>
+                                    Name: Samsung S5
+                                    <br>
+                                    Category: Electronic
+                                </div>
+                                <div>
+                                    <button class="btn btn-primary" data-toggle="modal" data-target="#myItem" >View Item</button>
+                                </div>
+                            </span>
+                         </div>
+                     </div>
+                    </div>
+           </div>
+           <a href="lost.html" class="btn btn-primary btn-lg my-4 mx-auto">View More <i class="fas fa-arrow-right"></i> </a>
+       </div>
+   </section>
+
+   <!-- modal -->
+   <div class="modal" id="myItem">
+       <div class="modal-dialog modal-lg">
+           <div class="modal-content">
+               <div class="modal-header bg-primary text-white">
+                   <h5 class="modal-title">National Identity</h5>
+                   <button class="close" data-dismiss="modal">&times;</button>
+               </div>
+               <div class="modal-body">
+                   <img src="/img/card1.jpg" class="img-fluid" alt="">
+               </div>
+               <div class="modal-footer d-flex justify-content-between">
+                    <div>
+                        Name:Nkengla Muluh <br>
+                        Location: Bamenda Mile 3 Nkwen <br>
+                        Date: 02/04/2021 <br>
+                        By:Mark James <br>
+                        Phone:672579446
+                    </div>
+                    <div>
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+  <!-- footer section -->
+   <footer id="main-footer" class="bg-dark text-white py-5">
+       <div class="overlay-footer">
+           <div class="container-fluid">
+               <div class="row">
+                   <div class="col-md-4 py-3">
+                    <a href="index.html" class="footer-brand "> 
+                        <img src="img/logo2.png" class="brand" alt="">
+                    </a> 
+                    <p class="lead">ETF lost it? then worry no more cause ETF is here to help you find your missing items with no stress </p>
+                   </div>
+                   <div class="col-12 col-md-3 text-center">
+                       <h2>Site Links</h2>
+                       <p class=" py-3 footer-link">
+                           <a href="index.html" class="text-white nav-link">Home</a>
+                           <br>
+                           <a href="about.html" class="text-white nav-link">About</a>
+                           <br>
+                           <a href="contact.html" class="text-white nav-link">Contact</a>
+                           <br>
+                           <a href="login.html" class="text-white nav-link">Login</a>
+                           <br>
+                        <a href="registeration.html" class="text-white nav-link">Sign Up</a>
+                       </p>
+                   </div>
+                   <div class="col-12 col-md-4 text-center">
+                       <h2>Contact</h2>
+                       <p class="mbr-text text-white py-3">
+                           <a href="#" class="text-white">
+                               Email: support@easytofind.com
+                           </a>
+                           <br>
+                           <a href="#" class="text-white">
+                               Phone: +237-672-579-446
+                           </a>
+                           <br>
+                           <a href="#" class="text-white">
+                               address: 
+                           </a>
+                       </p>
+                   </div>
+                </div>
+                <div class="row bg-secondary p-2">
+                    <div class="col-md-12 text-center pt-1">
+                        <div>
+                            <p> &copy; Copyright 2020 ETF All  Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </div>
+   </footer>
+
+
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+</html>
